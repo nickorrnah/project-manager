@@ -1,0 +1,42 @@
+[
+    {
+        "img": "img/sample_profile.png",
+        "name": "Project Name",
+        "description":"Description of project",
+        "course": "Class",
+        "grade": 0,
+        "hours": 0
+    },
+    {
+        "img": "img/pizza2.jpg",
+        "name": "Instant Pizza Maker",
+        "description":"An app that instantly makes pizza.",
+        "course": "INFO 340",
+        "hours": 10,
+        "grade": 2.5
+    },
+    {
+        "img": "img/breadslicer.jpg",
+        "name": "Bread Slicer",
+        "description":"The best thing since sliced bread.",
+        "course": "INFO 340",
+        "hours": 6,
+        "grade": 3.5
+    },
+    {
+        "img": "img/bestproject.jpg",
+        "name": "Best Final Project",
+        "description":"This project is the best!",
+        "course": "INFO 999",
+        "hours": 99,
+        "grade": 99
+    },
+    {
+        "img": "/img/sample_profile.png",
+        "name": "Test Project",
+        "description":"Test test test.",
+        "course": "Test",
+        "grade": 0,
+        "hours": 0
+    }
+]

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Project Draft 1">
+    <meta name="description" content="This website is a HTML/CSS mockup of our project">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    
+
+    <!-- Bootstrap --->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>IPM - Search</title>
+    <!-- Link for website icon - needs to go immediately after the title element-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">IPM</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="upload-page.html">Upload</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile-page.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="search-page.html">Search</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="upload">
+      <header>
+        <div class="banner upload">
+          <h1>Upload your Project</h1>
+          <p>Fill out the information below to add your INFO project to our repository!</p>
+        </div>
+      </header>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col">
+                  <form>
+                      <div class="mb-3">
+                          <label class="form-label">What class are you uploading for?</label>
+                          <input class="form-control">
+                      </div>
+                      <div class="mb-3">
+                          <label>Give a brief description of your project.</label>
+                          <textarea class="form-control" rows="6"></textarea>
+                      </div>
+                      <div class="mb-3">
+                          <label>Add any tags that are associated with your project.</label>
+                          <textarea class="form-control" rows="6"></textarea>
+                      </div>
+                  </form>
+              </div>
+              <div class="col text-center mx-auto">
+                <form>
+                  <div class="mb-3">
+                    <label for="formFile" class="form-label">Upload your project here</label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                  <div class="or">
+                    <p>or</p>
+                  </div>
+                  <div class="mb-3 mt-0">
+                    <label class="form-label"></label>
+                    <input class="form-control" placeholder="Paste a link">
+                  </div>
+                  <div>
+                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                  </div>
+                </form>
+              </div>
+          </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Informatics Portfolio Manager</p>
+    </footer> 
+    
+</body>
+</html>

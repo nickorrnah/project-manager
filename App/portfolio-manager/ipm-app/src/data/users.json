@@ -1,0 +1,5 @@
+[
+  {"userId": null, "userName": "Log Out", "userImg": "/img/null.png"},
+  {"userId": "student", "userName": "Student", "userImg": "/img/student.png"},
+  {"userId": "admin", "userName": "Admin", "userImg": "/img/admin.png"}
+]
